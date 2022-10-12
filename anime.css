@@ -1,0 +1,113 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: sans-serif;
+}
+header{
+    font-family: serif;
+    height: 60px;
+    background: #222130;
+    display: flex;
+    align-items: center ;
+    color: #07c972;
+}
+
+nav{
+    background-color: #222130;
+    min-width: 320px;
+    max-width: 600px;
+    height: 50px;
+    margin: auto;
+    padding: 10px 20px 20px 0px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+}
+ .tipos{
+    margin: auto;
+    display: inline-block;
+    background-color: #000000;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+ }
+ .palavra>a{
+    color: #07c972;
+    text-decoration: none;
+ }
+
+.aviso{
+    margin: 10px;
+}
+
+.aviso > a{
+    color:#ffffff;
+    background-color: rgb(0, 0, 0);
+    width: 68px;
+    margin: 15px;
+    padding: 3px;
+    border-radius: 4px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.aviso>a:hover{
+    color: #000000;
+    background-color: white;
+}
+
+h1{
+    margin: auto;
+}
+
+h3{
+    margin: 10px;
+    color: #4b4646;
+}
+a{
+  color: #313131;
+}
+
+.quadrado{
+    border: 1px solid #ffffff;
+    padding: 1px;
+    display: inline-block;
+    margin: 20px;
+}
+.quadrado:hover{
+    border: 1px solid #000000 ;
+    transition: .6s;
+}
+
+.shoppe{
+    min-width: 260px;
+    max-width: 310px;
+    min-height: 260px;
+    max-height: 340px;
+}
+
+.aliexpres{
+    min-width: 260px;
+    max-width: 310px;
+    min-height: 240px;
+    max-height: 260px;
+}
+.teste{
+    width: 100%;
+    max-width: 200px;
+}
+
+.recado{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
