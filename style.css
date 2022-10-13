@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    font-family: serif;
+    font-family: sans-serif;
     height: 60px;
     background: #222130;
     display: flex;

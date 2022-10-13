@@ -12,7 +12,7 @@ body{
     font-family: sans-serif;
 }
 header{
-    font-family: serif;
+    font-family: sans-serif;
     height: 60px;
     background: #222130;
     display: flex;
@@ -64,6 +64,7 @@ nav{
 
 h1{
     margin: auto;
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
 }
 
 h3{
