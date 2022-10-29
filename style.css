@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     color: #07c972;
     font-family: sans-serif;
     height: 100vh;
@@ -95,7 +95,7 @@ a{
     background-color: #222130;
     min-width: 320px;
     max-width: 600px;
-    height: 20px;
+    height: 25px;
     margin: auto;
     padding: 10px 20px 20px 0px;
     border-radius: 0px 0px 5px 5px;
