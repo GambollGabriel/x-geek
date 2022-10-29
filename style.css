@@ -198,6 +198,8 @@ a{
     margin-left: -60%;
  }
  */
+
+ /*
  .retangulo{
    max-width: 850px;
    min-width: 300px;
@@ -220,4 +222,22 @@ a{
  .imagem:hover{
    transition-duration: 1s;
    border-radius: 15px;
+ }
+*/
+
+.retangulo{
+   max-width: 850px;
+   min-width: 300px;
+   display: flex;
+   margin: auto;
+ }
+ .quadrado{
+   display: flex;
+ }
+ .imagem{
+   padding: 3px;
+   max-width: 450px;
+   max-height: 450px;
+   max-width: 100%;
+   border-radius: 4px;
  }
