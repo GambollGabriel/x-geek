@@ -36,6 +36,10 @@ a{
    text-decoration: none;
  }
 
+header>a{
+   margin: auto;
+}
+
  /*
  a:hover{
    background-color: #07c972;
