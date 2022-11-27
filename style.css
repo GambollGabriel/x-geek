@@ -29,6 +29,10 @@ h1, div.search-box{
     padding: 10px;
 }
 
+p{
+   text-align: center;
+}
+
 a{
    color: #07c972;
    padding: 10px;
