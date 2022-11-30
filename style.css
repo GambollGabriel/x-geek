@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top, #222130, #000000);
     color: #07c972;
     font-family: sans-serif;
     height: 100vh;
@@ -16,7 +16,6 @@ body{
 header{
     font-family: sans-serif;
     height: 60px;
-    background: #222130;
     display: flex;
     align-items: center ;
     color: #07c972;
@@ -99,27 +98,6 @@ header>a{
  barra de pesquisa
 */
 
- nav{
-    background-color: #222130;
-    min-width: 320px;
-    max-width: 600px;
-    height: 25px;
-    margin: auto;
-    padding: 10px 20px 20px 0px;
-    border-radius: 0px 0px 5px 5px;
-    display: flex;
-}
-
-
- .tipos{
-    margin: auto;
-    text-align: center;
-    display: inline-block;
-    background-color: #000000;
-    padding: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
-    text-decoration: none;
- }
 /*
  div>a{
    text-decoration: none;
@@ -233,6 +211,32 @@ header>a{
  }
 */
 
+/*
+
+sistema antigo
+
+nav{
+   background-color: #222130;
+   min-width: 320px;
+   max-width: 600px;
+   height: 25px;
+   margin: auto;
+   padding: 10px 20px 20px 0px;
+   border-radius: 0px 0px 5px 5px;
+   display: flex;
+}
+
+
+.tipos{
+   margin: auto;
+   text-align: center;
+   display: inline-block;
+   background-color: #000000;
+   padding: 10px 10px 10px 10px;
+   border-radius: 10px 10px 10px 10px;
+   text-decoration: none;
+}
+
 .retangulo{
    max-width: 850px;
    min-width: 300px;
@@ -249,3 +253,17 @@ header>a{
    max-width: 100%;
    border-radius: 4px;
  }
+*/
+
+nav{
+   max-width: 800px;
+   min-width: 320px;
+   margin: auto;
+   text-align: center;
+}
+.tipos{
+  padding: 30px;
+  border-radius: 20px;
+  margin: 30px;
+  border: 2px solid #07c972;
+}
