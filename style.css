@@ -267,3 +267,10 @@ nav{
   margin: 30px;
   border: 2px solid #07c972;
 }
+
+.tamanhodaimagem>img{
+   width: 20px;
+}
+h1>img{
+   width: 40px;
+}
